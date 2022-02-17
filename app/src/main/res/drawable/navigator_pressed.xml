@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:state_selected="true"
+        app:itemIconTint="@color/purple_300"
+        app:itemTextColor="@color/purple_300"
+        />
+    <item app:itemIconTint="@color/white"
+        app:itemTextColor="@color/white"
+        />
+
+</selector>

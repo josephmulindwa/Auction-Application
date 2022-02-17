@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "133128478140",
+    "project_id": "stauc-b8645",
+    "storage_bucket": "stauc-b8645.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:133128478140:android:c7e35a101911aa6c63dfb9",
+        "android_client_info": {
+          "package_name": "com.scit.stauc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "133128478140-6f7cgrjrr7t3rhiu8qiq0gi342crao4q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCd_teonIJo-2MOZ-qVLzWSBIm7sFQQUUM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "133128478140-6f7cgrjrr7t3rhiu8qiq0gi342crao4q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

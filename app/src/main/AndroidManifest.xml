@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.scit.stauc">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-feature android:name="android.hardware.camera"
+        android:required="false"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Stauc">
+        <activity android:name=".CategoryViewActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".CustomerNavigationActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ImageFlipScreenActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ItemDetailActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".LoginActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".RegisterActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MyUploadsActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MessageActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".SearchFiltersActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".DrawerNavigationActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".SingleFragmentActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ForgotPasswordActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".BidderViewActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <provider
+            android:authorities="${applicationId}.provider"
+            android:name="androidx.core.content.FileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths"/>
+        </provider>
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-4731003822397328~1336450631"/>
+    </application>
+
+</manifest>

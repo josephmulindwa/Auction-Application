@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_nav_home"
+        android:title="@string/home"
+        android:icon="@drawable/ic_home_black_24dp"/>
+    <item
+        android:id="@+id/action_nav_search"
+        android:title="@string/search"
+        android:icon="@drawable/ic_search_black_24dp"/>
+    <item
+        android:id="@+id/action_nav_bids"
+        android:title="@string/my_bids"
+        android:icon="@drawable/ic_baseline_dollar_24"/>
+    <item
+        android:id="@+id/action_nav_messages"
+        android:title="@string/messages"
+        android:icon="@drawable/ic_baseline_email_24"/>
+</menu>

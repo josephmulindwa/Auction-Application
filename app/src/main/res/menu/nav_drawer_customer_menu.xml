@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/action_nav_profile"
+            android:icon="@drawable/ic_baseline_person_24"
+            android:title="@string/profile"/>
+        <item
+            android:id="@+id/action_nav_upload"
+            android:icon="@drawable/ic_baseline_cloud_upload_24"
+            android:title="@string/upload"/>
+        <item
+            android:id="@+id/action_nav_notifications"
+            android:icon="@drawable/ic_baseline_notifications_24"
+            android:title="@string/notifications"/>
+        <item
+            android:id="@+id/action_nav_logout"
+            android:icon="@drawable/ic_baseline_logout_24"
+            android:title="@string/logout"/>
+    </group>
+    <item android:title="@string/support">
+        <menu>
+            <item
+                android:id="@+id/action_nav_help"
+                android:icon="@drawable/ic_baseline_help_24"
+                android:title="@string/help"/>
+            <item
+                android:id="@+id/action_nav_contact"
+                android:icon="@drawable/ic_baseline_contact_us_24"
+                android:title="@string/contact_us"/>
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="silver_930">#B1C5C4</color>
+    <color name="cool_gray_3">#B1A5A4</color>
+    <color name="cool_gray_4">#818584</color>
+    <color name="silver_950">#CDCED2</color>
+    <color name="cool_blue_2">#C4DFEF</color>
+    <color name="pale_blue_058">#B0D5D8</color>
+    <color name="camouflage_green_910">#939680</color>
+    <color name="deep_sky_blue">#54B0F3</color>
+    <color name="cool_blue_dark">#54A0A0</color>
+    <color name="cool_tend_white">#F3F6FB</color>
+    <color name="lavender_950">#DCDEEA</color>
+    <color name="cool_purple_1">#A349A4</color>
+    <color name="purple_300">#FF8800EE</color>
+    <color name="light_gray">#EEEEEE</color>
+    <color name="gray_400">#4C4C4C</color>
+    <color name="gray_910">#676767</color>
+    <color name="gray_battleship">#979797</color>
+    <color name="gray_normal">#8E8E8E</color>
+    <color name="silver_100">#C1C1C1</color>
+    <color name="silver_960">#B3B3B6</color>
+    <color name="red_400">#E81535</color>
+    <color name="dodger_blue">#5E91FF</color>
+    <color name="amethyst">#9966CC</color>
+    <color name="white_antique">#FAEBD7</color>
+    <color name="blond">#FAF0BE</color>
+    <color name="celadon">#ACE1AF</color>
+    <color name="white_anti_flash">#F2F3F4</color>
+    <color name="red_american_rose_920">#FE1830</color>
+    <color name="blue_persian_960">#4C00FB</color>
+    <color name="green_pyne_880">#00927D</color>
+    <color name="orange_ubuntu_900">#FF6532</color>
+    <color name="orange_blaze_980">#FE9C01</color>
+    <color name="blue_pale_cornflower_990">#AFD1F3</color>
+    <color name="pale_pink_940">#FCDAD0</color>
+
+    <color name="color_primary">@color/deep_sky_blue</color>
+    <color name="customred">#fad1db</color>
+    <color name="customblue">#d1dbfa</color>
+    <color name="customgreen">#ccfeaa</color>
+    <color name="custompurple">#cbc3e3</color>
+</resources>
